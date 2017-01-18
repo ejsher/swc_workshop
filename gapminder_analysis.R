@@ -4,3 +4,4 @@ gapminder <- read.csv("gapminder-FiveYearData.csv")
 ggplot(data=gapminder, aes(x= gdpPercap, y=lifeExp, color= continent)) + geom_point(aes(size=pop))
 
 #make notes with hashtags
+# Author: Emily Sherman
